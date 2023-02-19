@@ -1,0 +1,12 @@
+{
+  "key.jrv1000.openconfig" : "Open Config menu",
+  "category.jrv1000.config": "Base Finder",
+  "config.jrv1000.general_category.structures": "Structures",
+  "config.jrv1000.general_category.biomes": "Biome",
+  "config.jrv1000.general_category":"General Settings",
+  "config.jrv1000.general_category.rangex" : "Maximum X",
+  "config.jrv1000.general_category.rangey" : "Maximum Y",
+  "config.jrv1000.general_category.seed": "World Seed",
+  "config.jrv1000.general_category.distancex" : "Distance X",
+  "config.jrv1000.general_category.distancey": "Distance Y"
+}

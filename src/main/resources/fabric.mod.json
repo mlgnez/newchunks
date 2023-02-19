@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "base_finder",
+  "version": "${version}",
+  "name": "Base Finder",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/base_finder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "jrv1000.base_finder.client.Base_finderClient"
+    ]
+  },
+  "mixins": [
+    "base_finder.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

@@ -8,5 +8,7 @@
   "config.jrv1000.general_category.rangey" : "Maximum Y",
   "config.jrv1000.general_category.seed": "World Seed",
   "config.jrv1000.general_category.distancex" : "Distance X",
-  "config.jrv1000.general_category.distancey": "Distance Y"
+  "config.jrv1000.general_category.distancey": "Distance Y",
+  "config.jrv1000.newchunks_category" : "NewChunk Settings",
+  "config.jrv1000.newchunks_category.newchunks": "New Chunks"
 }

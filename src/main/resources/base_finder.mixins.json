@@ -4,7 +4,9 @@
   "package": "jrv1000.base_finder.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ChunkDataS2CPacketMixin"
+    "BlockUpdateS2CPacketMixin",
+    "ChunkDataS2CPacketMixin",
+    "ChunkDeltaUpdateS2CPacketMixin"
   ],
   "client": [
     "MinecraftClientMixin"

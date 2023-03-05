@@ -21,6 +21,7 @@ public class Base_finderClient implements ClientModInitializer {
     public static KeyBinding keyBinding;
 
     public static List<ChunkPos> newChunks = new ArrayList<>();
+    public static List<ChunkPos> oldChunks = new ArrayList<>();
 
     @Override
     public void onInitializeClient() {

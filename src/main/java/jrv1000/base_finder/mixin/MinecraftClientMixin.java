@@ -3,6 +3,7 @@ package jrv1000.base_finder.mixin;
 import jrv1000.base_finder.client.Base_finderClient;
 import jrv1000.base_finder.config.Config;
 import jrv1000.base_finder.render.RenderChunk;
+import me.x150.renderer.render.Renderer2d;
 import me.x150.renderer.render.Renderer3d;
 import me.x150.renderer.util.RendererUtils;
 import net.fabricmc.api.EnvType;
@@ -28,6 +29,12 @@ public abstract class MinecraftClientMixin {
         {
             MinecraftClient.getInstance().setScreen(Config.MakeConfig().build());
         }
+
+        MatrixStack stack = new MatrixStack();
+        stack.scale(1,1,1);
+
+        RendererUtils.setupRender();
+
     }
 
 }

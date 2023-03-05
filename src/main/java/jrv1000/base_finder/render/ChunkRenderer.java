@@ -2,6 +2,7 @@ package jrv1000.base_finder.render;
 
 import jrv1000.base_finder.client.Base_finderClient;
 import jrv1000.base_finder.config.Config;
+import me.x150.renderer.render.Renderer2d;
 import me.x150.renderer.render.Renderer3d;
 import me.x150.renderer.util.RendererUtils;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderContext;
@@ -22,7 +23,6 @@ public class ChunkRenderer implements WorldRenderEvents.Last{
 
         Renderer3d.renderThroughWalls();
 
-        //add if for config
         if(Config.getNewchunks()){
 
             for(int i = 0; i < Base_finderClient.newChunks.size(); i++){
